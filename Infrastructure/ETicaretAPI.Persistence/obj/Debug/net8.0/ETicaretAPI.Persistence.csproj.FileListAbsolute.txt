@@ -1,0 +1,17 @@
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/bin/Debug/net8.0/ETicaretAPI.Persistence.deps.json
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/bin/Debug/net8.0/ETicaretAPI.Persistence.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/bin/Debug/net8.0/ETicaretAPI.Persistence.pdb
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/bin/Debug/net8.0/ETicaret.Domain.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/bin/Debug/net8.0/ETicaretAPI.Application.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/bin/Debug/net8.0/ETicaretAPI.Application.pdb
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/bin/Debug/net8.0/ETicaret.Domain.pdb
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/obj/Debug/net8.0/ETicaretAPI.Persistence.csproj.AssemblyReference.cache
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/obj/Debug/net8.0/ETicaretAPI.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/obj/Debug/net8.0/ETicaretAPI.Persistence.AssemblyInfoInputs.cache
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/obj/Debug/net8.0/ETicaretAPI.Persistence.AssemblyInfo.cs
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/obj/Debug/net8.0/ETicaretAPI.Persistence.csproj.CoreCompileInputs.cache
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/obj/Debug/net8.0/ETicaret.D6939411.Up2Date
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/obj/Debug/net8.0/ETicaretAPI.Persistence.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/obj/Debug/net8.0/refint/ETicaretAPI.Persistence.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/obj/Debug/net8.0/ETicaretAPI.Persistence.pdb
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/obj/Debug/net8.0/ref/ETicaretAPI.Persistence.dll

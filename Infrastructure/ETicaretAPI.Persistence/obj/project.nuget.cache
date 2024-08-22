@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YWaHU/UkpFZvcZvOYWsWyoaRZ2PbeAzykwXqlpETMp4nnMLqXzptaF30yt2VmXK4K565lf5sNLD6Ip1oC7oUZA==",
+  "success": true,
+  "projectFilePath": "/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/ETicaretAPI.Persistence.csproj",
+  "expectedPackageFiles": [
+    "/Users/burcuustael/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/burcuustael/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
