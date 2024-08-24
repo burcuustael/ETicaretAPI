@@ -10,3 +10,4 @@
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Core/ETicaret.Domain/obj/Debug/net8.0/ETicaret.Domain.pdb
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Core/ETicaret.Domain/obj/Debug/net8.0/ref/ETicaret.Domain.dll
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Core/ETicaret.Domain/obj/Debug/net8.0/ETicaret.Domain.csproj.AssemblyReference.cache
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Core/ETicaret.Domain/obj/Debug/net8.0/ETicaret.Domain.sourcelink.json

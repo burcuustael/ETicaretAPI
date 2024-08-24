@@ -1,11 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "/scLkhjljgWMrfnbJwmf1hahsl0hAfRMRdF9LGnjIxGXIMgeIfYs66c+0sbP0zyIHU1ZJv48M8DwD3ykteJUEw==",
+  "dgSpecHash": "BuRkF6qD8FnWTXfOFl21gIqcKcscwn4OjzQsAD6knY3/JQ5lR6CM11vq/KgYW/DUChUEFDx1DiIcRfXx4vy4nw==",
   "success": true,
   "projectFilePath": "/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Core/ETicaretAPI.Application/ETicaretAPI.Application.csproj",
   "expectedPackageFiles": [
+    "/Users/burcuustael/.nuget/packages/microsoft.entityframeworkcore/8.0.8/microsoft.entityframeworkcore.8.0.8.nupkg.sha512",
+    "/Users/burcuustael/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.8/microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",
+    "/Users/burcuustael/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.8/microsoft.entityframeworkcore.analyzers.8.0.8.nupkg.sha512",
+    "/Users/burcuustael/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "/Users/burcuustael/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "/Users/burcuustael/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "/Users/burcuustael/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "/Users/burcuustael/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/burcuustael/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/Users/burcuustael/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/burcuustael/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/Users/burcuustael/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

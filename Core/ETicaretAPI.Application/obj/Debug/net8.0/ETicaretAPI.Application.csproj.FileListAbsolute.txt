@@ -13,3 +13,4 @@
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Core/ETicaretAPI.Application/obj/Debug/net8.0/refint/ETicaretAPI.Application.dll
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Core/ETicaretAPI.Application/obj/Debug/net8.0/ETicaretAPI.Application.pdb
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Core/ETicaretAPI.Application/obj/Debug/net8.0/ref/ETicaretAPI.Application.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Core/ETicaretAPI.Application/obj/Debug/net8.0/ETicaretAPI.Application.sourcelink.json

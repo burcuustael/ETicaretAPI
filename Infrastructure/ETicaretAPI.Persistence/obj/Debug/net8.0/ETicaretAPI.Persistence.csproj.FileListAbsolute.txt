@@ -15,3 +15,6 @@
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/obj/Debug/net8.0/refint/ETicaretAPI.Persistence.dll
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/obj/Debug/net8.0/ETicaretAPI.Persistence.pdb
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/obj/Debug/net8.0/ref/ETicaretAPI.Persistence.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/obj/Debug/net8.0/ETicaretAPI.Persistence.sourcelink.json
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/bin/Debug/net8.0/ETicaretAPI.Persistence.runtimeconfig.json
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/obj/Debug/net8.0/ETicaretAPI.Persistence.genruntimeconfig.cache
