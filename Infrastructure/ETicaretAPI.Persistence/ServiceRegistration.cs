@@ -1,6 +1,8 @@
 
+using ETicaretAPI.Application.Repositories;
 using Microsoft.EntityFrameworkCore;
 using ETicaretAPI.Persistence.Contexts;
+using ETicaretAPI.Persistence.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 
 
@@ -11,6 +13,15 @@ public static class ServiceRegistration
     public static void AddPersistenceServices(this IServiceCollection services)
     {
         services.AddDbContext<ETicaretAPIDbContext>(options =>
-            options.UseNpgsql("User ID=burcu;Password=myPassword08;Host=localhost;Port=5432;Database=ETicaretAPI;Pooling=true;Connection Lifetime=0;"));
+            options.UseNpgsql(Configuration.ConnectionString));
+        
+        services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
+        services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
+
+        services.AddScoped<IOrderReadRepository, OrderReadRepository>();
+        services.AddScoped<IOrderWriteRepository, OrderWriteRepository>();
+
+        services.AddScoped<IProductReadRepository, ProductReadRepository>();
+        services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
     }
 } 
