@@ -238,3 +238,8 @@
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Npgsql.dll
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/obj/Debug/net8.0/ETicaret.API.API.sourcelink.json
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/FluentValidation.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/FluentValidation.AspNetCore.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/ETicaretAPI.Infrastructure.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/ETicaretAPI.Infrastructure.pdb

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "G4rPISUEif1PmUUqkOiGrnovfYsQp9U2lbsweO69Lqh0HnKCkwsu9tmaFRQjKz3CuxagwPuWwLgQJmGXMTzD8Q==",
+  "dgSpecHash": "yytk9+oGN/iAYa3LUjOHQyToIZtExlDSZ9cBNcAV0z/lC+3wiEjpnC+XuCIvqg7AtFP+EEB6RunoZRvi+H0YXA==",
   "success": true,
   "projectFilePath": "/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/ETicaret.API.API.csproj",
   "expectedPackageFiles": [
+    "/Users/burcuustael/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512",
+    "/Users/burcuustael/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/burcuustael/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.10.0/fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512",
     "/Users/burcuustael/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/burcuustael/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/burcuustael/.nuget/packages/humanizer.core.af/2.14.1/humanizer.core.af.2.14.1.nupkg.sha512",
