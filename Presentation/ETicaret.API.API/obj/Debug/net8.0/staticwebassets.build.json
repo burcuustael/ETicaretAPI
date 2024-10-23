@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "PCQu7C4DhmvlG0vmLwUt0Ccrq5VKLNzd9uoaiLPUwwI=",
+  "Hash": "ajNd7StJV1yKhLvdl12k8I9lOGF7sdGGtM6cdttwNL0=",
   "Source": "ETicaret.API.API",
   "BasePath": "_content/ETicaret.API.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ETicaret.API.API/wwwroot",
+      "Source": "ETicaret.API.API",
+      "ContentRoot": "/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/wwwroot/",
+      "BasePath": "_content/ETicaret.API.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
