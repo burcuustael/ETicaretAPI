@@ -27,7 +27,11 @@
     <ItemGroup>
       <Folder Include="Controllers\" />
       <Folder Include="wwwroot\" />
-      <Folder Include="wwwroot\resource\product-images\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\photo-images\photo-images\delete.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\photo-images\photo-images\edit.png" />
     </ItemGroup>
 
 </Project>

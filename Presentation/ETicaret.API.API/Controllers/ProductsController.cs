@@ -5,6 +5,7 @@ using ETicaretAPI.Application.RequestParameters;
 using ETicaretAPI.Application.Services;
 using ETicaretAPI.Application.ViewModels.Products;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ETicaret.API.API.Controllers
 {
@@ -94,21 +95,35 @@ namespace ETicaret.API.API.Controllers
         }
         
         [HttpPost("[action]")]
-        public async Task<IActionResult> Upload()
+        public async Task<IActionResult> Upload(string id)
         {
           List<(string fileName, string pathOrContainerName)> result=  await _storageService.UploadAsync("photo-images", Request.Form);
 
+          Product product = await _productReadRepository.GetByIdAsync(id);
           await _productImageFileWriteRepository.AddRangeAsync(result.Select(r => new ProductImageFile
           {
               FileName = r.fileName,
               Path = r.pathOrContainerName,
-              Storage = _storageService.StorageName
+              Storage = _storageService.StorageName,
+              Products = new List<Product>() {product}
           }).ToList());
 
-          await _productWriteRepository.SaveAsync();
+          await _productImageFileWriteRepository.SaveAsync();
             return Ok();
         }
-        
+
+        [HttpGet("[action]/{id}")]
+        public async Task<IActionResult> GetProductImages(string id)
+        {
+            Product? product = await _productReadRepository.Table.Include(p => p.ProductImageFiles)
+                .FirstOrDefaultAsync(p => p.Id == Guid.Parse(id));
+
+            return Ok(product.ProductImageFiles.Select(p => new
+            {
+                p.Path,
+                p.FileName
+            }));
+        }
         
     }
 }

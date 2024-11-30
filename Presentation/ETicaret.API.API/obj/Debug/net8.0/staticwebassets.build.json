@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ajNd7StJV1yKhLvdl12k8I9lOGF7sdGGtM6cdttwNL0=",
+  "Hash": "pzwnr5zdquu+0tkDe+EI5EwG7dekoqkTofAY2nJg5pg=",
   "Source": "ETicaret.API.API",
   "BasePath": "_content/ETicaret.API.API",
   "Mode": "Default",
@@ -15,5 +15,44 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/wwwroot/photo-images/photo-images/delete.png",
+      "SourceId": "ETicaret.API.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/wwwroot/",
+      "BasePath": "_content/ETicaret.API.API",
+      "RelativePath": "photo-images/photo-images/delete.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/photo-images/photo-images/delete.png"
+    },
+    {
+      "Identity": "/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/wwwroot/photo-images/photo-images/edit.png",
+      "SourceId": "ETicaret.API.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/wwwroot/",
+      "BasePath": "_content/ETicaret.API.API",
+      "RelativePath": "photo-images/photo-images/edit.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/photo-images/photo-images/edit.png"
+    }
+  ]
 }
