@@ -4,6 +4,7 @@ using ETicaretAPI.Infrastructure.Enums;
 using ETicaretAPI.Infrastructure.Services;
 using ETicaretAPI.Infrastructure.Services.Storage;
 using ETicaretAPI.Infrastructure.Services.Storage.Local;
+using ETicaretAPI.Infrastructure.Services.Storage.Azure;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ETicaretAPI.Infrastructure;
@@ -28,7 +29,7 @@ public static class ServiceRegistration
                 serviceCollection.AddScoped<IStorage, LocalStorage>();
                 break;
             case StorageType.Azure :
-                serviceCollection.AddScoped<IStorage, Services.Storage.Azure.AzureStorage>();
+                serviceCollection.AddScoped<IStorage, AzureStorage>();
                 break;
             case StorageType.AWS:
                 break;

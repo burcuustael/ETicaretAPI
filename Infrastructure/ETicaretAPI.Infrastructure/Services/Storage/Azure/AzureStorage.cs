@@ -36,7 +36,7 @@ namespace ETicaretAPI.Infrastructure.Services.Storage.Azure;
 
         public async Task<List<(string fileName, string pathOrContainerName)>> UploadAsync(string containerName, IFormCollection files)
         {
-            _blobContainerClient = _blobServiceClient.GetBlobContainerClient( containerName);
+            _blobContainerClient = _blobServiceClient.GetBlobContainerClient(containerName);
             await _blobContainerClient.CreateIfNotExistsAsync();
             await _blobContainerClient.SetAccessPolicyAsync(PublicAccessType.BlobContainer);
 
