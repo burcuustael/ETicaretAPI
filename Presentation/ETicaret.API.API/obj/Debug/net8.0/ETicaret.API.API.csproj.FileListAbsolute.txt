@@ -250,3 +250,6 @@
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/System.ClientModel.dll
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/System.IO.Hashing.dll
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/System.Memory.Data.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/MediatR.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/MediatR.Contracts.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/MediatR.Extensions.Microsoft.DependencyInjection.dll

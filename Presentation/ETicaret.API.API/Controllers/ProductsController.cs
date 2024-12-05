@@ -1,9 +1,11 @@
 using ETicaret.Domain.Entities;
 using ETicaretAPI.Application.Abstractions;
+using ETicaretAPI.Application.Features.Queries.Product.GetAllProduct;
 using ETicaretAPI.Application.Repositories;
 using ETicaretAPI.Application.RequestParameters;
 using ETicaretAPI.Application.Services;
 using ETicaretAPI.Application.ViewModels.Products;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,36 +20,24 @@ namespace ETicaret.API.API.Controllers
         readonly IProductImageFileWriteRepository _productImageFileWriteRepository;
         readonly IStorageService _storageService;
         private readonly IConfiguration _configuration;
+        private readonly IMediator _mediator;
 
 
-        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository, IProductImageFileWriteRepository productImageFileWriteRepository, IStorageService storageService, IConfiguration configuration)
+        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository, IProductImageFileWriteRepository productImageFileWriteRepository, IStorageService storageService, IConfiguration configuration, IMediator mediator)
         {
             _productWriteRepository = productWriteRepository;
             _productReadRepository = productReadRepository;
             _productImageFileWriteRepository = productImageFileWriteRepository;
             _storageService = storageService;
             _configuration = configuration;
+            _mediator = mediator;
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get([FromQuery]Pagination pagination)
+        public async Task<IActionResult> Get([FromQuery] GetAllProductQueryRequest getAllProductQueryRequest)
         {
-            var totalCount = _productReadRepository.GetAll(false).Count();
-            var products = _productReadRepository.GetAll(false).Select(p => new
-            {
-                p.Id,
-                p.Name,
-                p.Stock,
-                p.Price,
-                p.CreatedDate,
-                p.UpdateDate
-            }).Skip(pagination.Page * pagination.Size).Take(pagination.Size).ToList();
-            return Ok(
-                new
-                {
-                    totalCount,
-                    products
-                });
+            GetAllProductQueryResponse response = await _mediator.Send(getAllProductQueryRequest);
+            return Ok(response);
         }
         
         [HttpGet("{id}")]
@@ -111,12 +101,27 @@ namespace ETicaret.API.API.Controllers
         {
             Product? product = await _productReadRepository.Table.Include(p => p.ProductImageFiles)
                 .FirstOrDefaultAsync(p => p.Id == Guid.Parse(id));
-
+         
             return Ok(product.ProductImageFiles.Select(p => new
             {
                Path=$"{_configuration["BaseStorageUrl"]}/{p.Path}",
-                p.FileName
+                p.FileName,
+                p.Id
             }));
+        }
+
+        
+        [HttpDelete("[action]/{id}")]
+        public async Task<IActionResult> DeleteProductImages(string id,string imageId)
+        {
+            Product? product = await _productReadRepository.Table.Include(p => p.ProductImageFiles)
+                .FirstOrDefaultAsync(p => p.Id == Guid.Parse(id));
+
+            ProductImageFile productImageFile = product.ProductImageFiles
+                .FirstOrDefault(p => p.Id == Guid.Parse(imageId));
+            product.ProductImageFiles.Remove(productImageFile);
+            await _productWriteRepository.SaveAsync();
+            return Ok();
         }
         
     }
