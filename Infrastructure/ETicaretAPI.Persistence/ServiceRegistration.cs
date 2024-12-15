@@ -1,4 +1,5 @@
 
+using ETicaret.Domain.Entities.Identity;
 using ETicaretAPI.Application.Repositories;
 using Microsoft.EntityFrameworkCore;
 using ETicaretAPI.Persistence.Contexts;
@@ -14,6 +15,16 @@ public static class ServiceRegistration
     {
         services.AddDbContext<ETicaretAPIDbContext>(options =>
             options.UseNpgsql(Configuration.ConnectionString));
+
+        services.AddIdentity<AppUser, AppRole>(options =>
+            {
+                options.Password.RequiredLength = 3;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireDigit = false;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
+            })
+            .AddEntityFrameworkStores<ETicaretAPIDbContext>();
         
         services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
         services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
