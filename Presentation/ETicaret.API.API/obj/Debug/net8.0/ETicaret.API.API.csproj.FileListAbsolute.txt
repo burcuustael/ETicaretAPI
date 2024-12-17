@@ -259,3 +259,11 @@
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
