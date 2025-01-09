@@ -2162,6 +2162,7 @@
         "dependencies": {
           "Azure.Storage.Blobs": "12.23.0",
           "ETicaretAPI.Application": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.Extensions.DependencyInjection": "8.0.0"
         },

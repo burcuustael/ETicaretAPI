@@ -26,7 +26,7 @@ public class TokenHandler : ITokenHandler
         token.Expiration = DateTime.UtcNow.AddMinutes(minute);
 
         JwtSecurityToken securityToken = new(
-            audience:_configuration["Token:SecurityKey"],
+            audience:_configuration["Token:Audience"],
             issuer:_configuration["Token:Issuer"],
             expires:token.Expiration,
             notBefore:DateTime.UtcNow,
