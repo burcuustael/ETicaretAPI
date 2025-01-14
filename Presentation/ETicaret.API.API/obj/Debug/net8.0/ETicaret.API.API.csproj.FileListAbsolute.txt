@@ -267,3 +267,8 @@
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Google.Apis.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Google.Apis.Auth.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/Google.Apis.Core.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/System.Management.dll
+/Users/burcuustael/Desktop/ETicaretUyg/ETicaretAPI/Presentation/ETicaret.API.API/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Management.dll
